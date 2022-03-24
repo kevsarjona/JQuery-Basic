@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Example of Simple jQuery Powered Web Page</title>
+    <link rel="stylesheet" type="text/css" href="/examples/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("h1").css("color", "#FF5733");
+          	$("p").css("color", "#33CEFF");
+        });
+    </script>
+</head>
+<body>
+    <h1>Hola a todos clase!</h1>
+  	<p>Bienvenidos a esta pagina web. </p>
+</body>
+</html>
