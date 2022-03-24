@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>jQuery Document Ready Demo</title>
+    <link rel="stylesheet" type="text/css" href="/examples/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("strong").text("Hola Clase!");
+          	$("p").text("Como estan?");
+        });
+    </script>
+</head>
+<body>
+    <strong>No se cargo.</strong>
+  	<p>No se cargo.</p>
+</body>
+</html>
